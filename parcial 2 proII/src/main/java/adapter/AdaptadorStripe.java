@@ -11,7 +11,7 @@ public class AdaptadorStripe implements ProcesadorPago {
 
     public void cobrarEnPesos(String usuario, double montoCOP) {
 
-        double montoUSD = montoCOP / 4000;
+        double montoUSD = montoCOP / 3200;
 
         String email = usuario + "@shopmaster.com";
         System.out.println("   [Adaptador] $" + (long) montoCOP + " COP -> USD $" + montoUSD);
